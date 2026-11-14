@@ -26,8 +26,6 @@ public class Main {
 
         if (login == true) {
             System.out.println("Login feito com sucesso!");
-            Menu menu = new Menu();
-            Menu.menuImpressora();
 
         } else {
             System.out.println("Tentativas esgotadas. Saindo...");
